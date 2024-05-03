@@ -1,0 +1,27 @@
+{
+    "circle": {
+        "is_Perspective": true,
+        "is_active": false,
+        "R": 2,
+        "color": [
+            12,
+            12,
+            45
+        ]
+    },
+    "rectangle": {
+        "is_Perspective": false,
+        "is_active": false,
+        "color": [
+            1,
+            244,
+            255
+        ]
+    },
+    "Any": {
+        "is_Perspective": true,
+        "is_active": true,
+        "path": "...",
+        "mask" : "..."
+    }
+}
