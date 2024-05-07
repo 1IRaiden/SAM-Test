@@ -88,16 +88,13 @@ class Any(AbstractShape):
         self.mask = (self.mask * 255).astype(np.uint8)
 
 
-
-# data = {"circle": {
-#            "is_Perspective": True,
-#            "is_active": True, "R": 2,
-#            "color": (254, 344, 45)},
-#        "renctangle": {
-#            "is_Perspective": False,
-#            "is_active": False, "R": 2,
-#            "color": (1, 1, 10)}
-#        }
+    # Здесь появится новый код
+    # Я следаю попытку хакомминтится сонв
+    # Думаем о возникновении новых строк
+    # code
+    # code
+    # code
+    # code
 
 
 
