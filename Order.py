@@ -88,13 +88,6 @@ class Any(AbstractShape):
         self.mask = (self.mask * 255).astype(np.uint8)
 
 
-    # Здесь появится новый код
-    # Я следаю попытку хакомминтится сонв
-    # Думаем о возникновении новых строк
-    # code
-    # code
-    # code
-    # code
 
 
 
