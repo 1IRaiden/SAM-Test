@@ -35,6 +35,7 @@ def main(queue):
                 drone.update_position(position[i])
         time.sleep(0.1)
 
+
 if __name__ == '__main__':
     camera = Camera()
     pos = Position()

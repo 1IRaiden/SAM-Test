@@ -6,7 +6,6 @@ import enum
 import cv2
 
 
-
 class AbstractShape(ABC):
 
     @dataclass
@@ -56,6 +55,8 @@ class Rectangle(AbstractShape):
     def count_dx_h(self, value, max_heath):
         distance = (value/max_heath)*self.setting.dl
         self.dx_h = int(0 - self.setting.dx + distance)
+
+
 class Any(AbstractShape):
     @dataclass
     class AnySettings(AbstractShape.Settings):
